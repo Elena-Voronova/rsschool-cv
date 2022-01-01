@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid red;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .header, .footer {
+    display: flex;
+    flex: none;
+    flex-direction: row;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text {
+    width: 400px;
+    padding: 20px;
+  }
+
+
+
+
