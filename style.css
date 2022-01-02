@@ -106,7 +106,16 @@
   }
 
   .footer {
+    display: flex;
     flex: none;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+  }
+
+  .year {
+    align-self: center;
+    margin: 0;
   }
 
 
