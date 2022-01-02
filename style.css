@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+    background-color: rgb(195, 185, 183);
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 20px;
+  }
+
+  .header {
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    width: 800px;
+  }
+
+  .header-color {
+    background-color: rgb(236, 211, 204);
+    width: 770px;
+    margin: 0 0 30px 0;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav-link {
+    padding: 0 14px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: color 0.5s;
+    color: rgb(102, 92, 80);
+    font-weight: bold;
+  }
+
+  a:hover {
+    color:rgb(236, 211, 204);
+    text-decoration: underline;
+  }
+
+  .img {
+    width: 200px;
+    height: 200px;
+    margin: 15px 40px;
+    float: left;
+  }
+  
+  .title {
+    margin: 90px 0 0 400px;
+    color: rgb(102, 92, 80);
+  }
+
+  .subtitle {
+    padding: 0;
+    margin: 0 0 0 400px;
+    color: rgb(102, 92, 80);
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #main-color {
+    background-color: rgb(105, 92, 84);
+  }
+
+  .text-left {
+    width: 400px;
+    padding: 20px 40px 40px 40px;
+    color: white;
+  }
+
+  .links {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .text-right {
+    width: 400px;
+    padding: 20px 40px 40px 40px;
+    color: rgb(102, 92, 80);
+  }
+
+  .code {
+    background-color: rgb(236, 211, 204);
+    padding: 10px 0 0 10px;
+    color: black;
+  }
+
+  .footer {
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+  }
+
+  .year {
+    align-self: center;
+    margin: 0;
+  }
+
+
+
